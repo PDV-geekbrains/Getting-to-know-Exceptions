@@ -9,10 +9,15 @@ public class program {
         System.out.println(userInput);
     }
 
+    /**
+     * Метод читает с консоли дробное число.
+     * @return число, считанное с консоли.
+     */
     private static float getUserInput() {
         boolean isValid = false;
         Scanner scanner = new Scanner(System.in);
         float result = 0;
+        
         while (!isValid) {
             try {
                 System.out.print("Введите дробное число: ");

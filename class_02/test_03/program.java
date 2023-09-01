@@ -9,12 +9,14 @@ public class program {
         System.out.println(a / b);
         printSum(23, 234);
         int[] abc = { 1, 2 };
-    try {
-        abc[3] = 9;
+        // Проверка корректности индекса массива.
+        try {
+            abc[3] = 9;
         } catch (IndexOutOfBoundsException ex) {
-           System.out.println("Массив выходит за пределы своего размера!");
+            System.out.println("Массив выходит за пределы своего размера!");
         }
     }
+    
     public static void printSum(Integer a, Integer b){
         System.out.println(a + b);
     }
