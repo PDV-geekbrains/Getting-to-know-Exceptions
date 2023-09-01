@@ -7,7 +7,7 @@ public class program {
 
         // Если делитель равен нулю.
         if(d == 0)
-            throw new IllegalArgumentException("Ошибка. Знаменатель не может равняться 0.");
+            throw new IllegalArgumentException("Ошибка. Делитель не может равняться 0.");
         
         double catchedRes1 = intArray[8] / d;
         System.out.println("catchedRes1 = " + catchedRes1);
