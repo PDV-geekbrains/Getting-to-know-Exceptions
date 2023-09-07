@@ -1,5 +1,9 @@
 # Исключения в программировании и их обработка
 
+### Урок 3. Продвинутая работа с исключениями в Java
+
+* [Задача 1](https://github.com/PDV-geekbrains/Getting-to-know-Exceptions/blob/master/class_03/Start.java)
+
 ### Урок 2. Исключения и их обработка
 
 * [Задача 1](https://github.com/PDV-geekbrains/Getting-to-know-Exceptions/blob/master/class_02/test_01/program.java)
